@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="example test suite">
+    <parameter name="string1" value="adrian"></parameter>
+    <parameter name="string2" value="globant"></parameter>
+    <test name="testParameters">
+        <classes>
+            <class name="org.example.AppTest"></class>
+        </classes>
+    </test>
+</suite>
